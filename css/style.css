@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  min-height: 1700px;
+  background-size: cover;
+  background-image: url(../img/main_gar.jpg);
+  background-size: cover;
+}
+
+.main_inner {
+  display: flex;
+  justify-content: center;
+}
+
+.aos_anim {
+  max-width: 1140px;
+}
+
+.header {
+  padding: 250px 100px 400px 100px;
+  font-size: 56px;
+  text-align: center;
+  color: #8940ff;
+}
+
+
+.hr {
+  border: solid 1px #8940ff;
+  opacity: 0.3;
+}
+
+.anim_blok {
+  width: 400px;
+  height: 200px;
+  border: solid 1px #8940ff;
+  border-radius: 10px;
+  background-color: #be95ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 376px) {
+  .header {
+    padding: 180px 50px 190px 50px;
+    font-size: 25px;
+    text-align: center;
+    color: #8940ff;
+}
+
+  .anim_blok {
+    width: 300px;
+    height: 150px;
+    margin-top: 100px;
+  }
+}
+
+.h3 {
+  color: #ffffff;
+  font-size: 30px;
+}
